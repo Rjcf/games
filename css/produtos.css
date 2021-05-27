@@ -59,7 +59,7 @@ nav a:hover {
 }
 
 .produtos li:hover {
-  border-color: #b49714c2;
+  border-color: #7e690ec2;
 }
 
 .produtos li:active {
@@ -68,7 +68,14 @@ nav a:hover {
 .produtos li:hover h2 {
   font-size: 34px;
 }
+.produtos li:hover p {
+  text-transform: uppercase;
+  font-weight: bold;
+}
 
+.produtos li:hover .produto-preco {
+  font-size: 25px;
+}
 .produtos h2 {
   font-size: 30px;
   font-weight: bold;
