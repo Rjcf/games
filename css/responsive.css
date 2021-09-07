@@ -1,17 +1,45 @@
+@media screen and (max-width: 480px) {
+    .container,
+    .principal,
+    .conteudo-beneficios,
+    .mapa-conteudo,
+    .conteudo-central {
+        width: auto;
+    }
+    h1 {
+        text-align: center;
+    }
+    li a {
+        font-size: 80%;
+    }
+    .logo {
+        width: 80%;
+    }
+    nav {
+        position: relative;
+        top: 0px;
+        left: auto;
+    }
+    nav li {
+        display: inline;
+        margin: 0 0 0 10%;
+    }
+}
+
 @media screen and (max-width: 700px) {
-  header .container {
-    display: flex;
-    flex-direction: column;
-  }
-  .botao {
-    margin-top: 5px;
-    width: 190px;
-    height: 60px;
-  }
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+    .botao {
+        margin-top: 5px;
+        width: 190px;
+        height: 60px;
+    }
 }
 
 @media screen and (min-width: 1000px) {
-  .descricao {
-    width: 50%;
-  }
+    .descricao {
+        width: 50%;
+    }
 }

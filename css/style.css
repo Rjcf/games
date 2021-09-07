@@ -1,48 +1,133 @@
-#banner {
-	width:100%;
+body {
+    background-color: #ffdc82;
+    font-family: 'Montserrat', sans-serif;
 }
 
-.principal{
-	background: #CCCCCC;
-	padding: 30px;
+header {
+    background-color: #204099;
+    padding: 20px 0;
+}
+
+.container {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #ffdc82;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #e5be5f;
+    text-decoration: underline;
+}
+
+.logo {
+    width: 40%;
+}
+
+.conteudo-central {
+    background: linear-gradient(#ffdc82, #B39549);
+    width: 940px;
+    margin: 0 auto;
 }
 
 .titulo-principal {
-	padding-left: 20px;
+    text-align: center;
+    margin: 0 0 1em;
+    font-weight: bold;
+    font-size: 2em;
+    clear: left;
 }
 
-.titulo-centralizado {
-	text-align: center
+.principal {
+    padding: 3em 0;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.principal p {
+    margin: 0 0 1em;
+}
+
+.principal strong {
+    font-weight: bold;
+}
+
+.principal em {
+    font-style: italic;
 }
 
 p {
-	text-align: center;
+    color: black;
 }
 
-#missao {
-	font-size: 20px
+.mapa {
+    padding: 3em 0;
 }
 
-em strong {
-	color: #FF0000;
+.mapa-conteudo {
+    width: 940px;
+    margin: 0 auto;
 }
 
-.itens {
-	font-style: italic
+.mapa p {
+    margin: 0 0 2em;
+    text-align: center;
 }
 
 .beneficios {
-	background: #FFFFFF;
-	padding: 20px;
+    margin: 3em 0;
 }
 
-ul {
-	display: inline-block;
-	vertical-align: top;
-	width: 20%;
-	margin-right: 15%;
+.conteudo-beneficios {
+    width: 640px;
+    margin: 0 auto;
 }
 
-.imagembeneficios {
-	width: 50%;
+.lista-beneficios {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.imagem-beneficios {
+    width: 40%;
+    opacity: 90%;
+}
+
+.itens {
+    line-height: 1.5;
+}
+
+.itens:first-child {
+    font-weight: bold;
+}
+
+.itens::before {
+    content: "★";
+}
+
+footer {
+    text-align: center;
+    background-color: #204099;
+    padding: 60px 0;
+    width: 100%;
+    height: 1%;
 }

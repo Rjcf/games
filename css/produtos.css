@@ -1,123 +1,109 @@
-body {
-  margin: 0;
-  background-color: #ffdc82;
-}
-.container {
-  position: relative;
-  width: 940px;
-  margin: 0 auto;
-}
-
-header {
-  background-color: #204099;
-  padding: 20px 0;
-}
-.logo {
-  width: 40%;
-  height: 40%;
-}
-nav {
-  position: absolute;
-  top: 110px;
-  right: 0;
-}
-nav li {
-  display: inline;
-  margin: 0 0 0 15px;
-}
-
-nav a {
-  text-transform: uppercase;
-  color: #ffdc82;
-  font-weight: bold;
-  font-size: 22px;
-  text-decoration: none;
-}
-
-nav a:hover {
-  color: #e5be5f;
-  text-decoration: underline;
-}
-
 .produtos {
-  width: 940px;
-  margin: 0 auto;
-  padding: 50px 0;
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
 }
+
 .produtos li {
-  display: inline-block;
-  text-align: center;
-  width: 30%;
-  vertical-align: top;
-  margin: 0 1.5%;
-  padding: 30px 20px;
-  box-sizing: border-box;
-  border-color: #000000;
-  border-width: 2px;
-  border-style: solid;
-  border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border-color: #000000;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+    opacity: 60%;
 }
 
 .produtos li:hover {
-  border-color: #204099;
+    border-color: #204099;
+    opacity: 100%;
 }
 
 .produtos li:active {
-  border-color: chartreuse;
+    border-color: chartreuse;
 }
+
 .produtos li:hover h2 {
-  font-size: 34px;
+    font-size: 34px;
 }
+
 .produtos li:hover p {
-  text-transform: uppercase;
-  font-weight: bold;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 .produtos li:hover .produto-preco {
-  font-size: 25px;
+    font-size: 25px;
 }
+
 .produtos h2 {
-  font-size: 30px;
-  font-weight: bold;
+    font-size: 30px;
+    font-weight: bold;
 }
+
 .produto-descricao {
-  font-size: 18px;
-  margin-top: 30px;
+    font-size: 18px;
+    margin-top: 30px;
 }
+
 .produto-preco {
-  font-size: 22px;
-  font-weight: bold;
-  margin: 10px 0 0;
-  margin-top: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px 0 0;
+    margin-top: 10px;
 }
+
 .console {
-  margin: 25px;
-  width: 70%;
-  height: 70%;
+    margin: 25px;
+    width: 70%;
+    height: 70%;
 }
 
 .limpeza {
-  margin: 15px;
-  width: 70%;
-  height: 70%;
-}
-.acessorio {
-  width: 70%;
-  height: 70%;
+    margin: 15px;
+    width: 70%;
+    height: 70%;
 }
 
-.rodape {
-  text-align: center;
-  background-color: #204099;
-  padding: 60px 0;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
+.acessorio {
+    width: 70%;
+    height: 70%;
 }
 
 .copyright {
-  color: #ffffff;
-  font-size: 13px;
-  margin: 20px 0 0;
+    color: #ffffff;
+    font-size: 13px;
+    margin: 20px 0 0;
+}
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label,
+form p {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox {
+    margin: 20px 0;
 }
