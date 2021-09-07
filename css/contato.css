@@ -1,0 +1,39 @@
+form legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.enviar {
+    width: 40%;
+    padding: 15px 0px;
+    background: #204099;
+    color: #ffdc82;
+    font: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background: #0a043f;
+    transform: scale(1.2);
+}
+
+table {
+    margin: 20px 0 40px;
+}
+
+thead {
+    background: whitesmoke;
+    font-weight: bold;
+}
+
+td,
+th {
+    border: solid 1px;
+    background: white;
+    padding: 8px 15px;
+}

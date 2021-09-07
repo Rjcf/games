@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Fale conosco</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="css/produtos.css" />
+    <link rel="stylesheet" href="css/contato.css" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1><img class="logo" src="imagens/logo-vg.png" alt='Logo da Vitran Games' /></h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="produtos.html">Serviços</a></li>
+                    <li><a href="contato.html">Fale Conosco</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <form>
+            <label for="nome">Nome Completo</label>
+            <input type="text" id="Nome" class="input-padrao" required />
+            <label for="email">Email</label>
+            <input type="email" id="Email" class="input-padrao" required placeholder='seuemail@dominio.com' />
+            <label for="telefone">Telefone</label>
+            <input type="tel" id="Telefone" class="input-padrao" required placeholder='(xx)xxxxx-xxxx' />
+            <label for="mensagem"></label>
+            <textarea cols="30" rows="10" id="mensagem" class="input-padrao" required></textarea>
+            <fieldset>
+                <legend>Como prefere nosso contato?</legend>
+                <label for="radio-email">
+            <input
+              type="radio"
+              name="contato"
+              value="email"
+              id="radio-email"
+            />Email</label
+          >
+
+          <label for="radio-telefone">
+            <input
+              type="radio"
+              name="contato"
+              value="telefone"
+              id="radio-telefone"
+            />Telefone</label
+          >
+
+          <label for="radio-whatsapp">
+            <input
+              type="radio"
+              name="contato"
+              value="whatsapp"
+              id="radio-whatsapp"
+            checked/>WhatsApp</label
+          >
+            </fieldset>
+        <fieldset>
+       
+        <legend>Qual horário prefere ser atendido?</legend>
+        <select>
+<option>
+  Manhã
+</option>
+<option>
+  Tarde
+</option>
+<option>
+Noite
+
+</option> 
+</select>
+        </fieldset>
+<label class="checkbox"
+><input type="checkbox" />Gostaria de receber nossas novidades por
+e-mail</label
+>
+                <input type="submit" class='enviar' value="Enviar" />
+        </form>
+        <table>
+            <thead>
+                <tr>
+                    <th>Dia</th>
+                    <th>Horário</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Segunda</td>
+                    <td>8h - 20h</td>
+                </tr>
+                <tr>
+                    <td>Quarta</td>
+                    <td>8h - 20h</td>
+                </tr>
+                <tr>
+                    <td>Sexta</td>
+                    <td>8h - 20h</td>
+                </tr>
+            </tbody>
+        </table>
+
+
+    </main>
+    <footer>
+        <div class="rodape">
+            <p class="copyright">&copy; Copyright Vitran Games - 2021</p>
+        </div>
+    </footer>
+</body>
+
+</html>
