@@ -1,10 +1,10 @@
 body {
-    background-color: #ffdc82;
+    background-color: #0669b2;
     font-family: 'Montserrat', sans-serif;
 }
 
 header {
-    background-color: #204099;
+    background-color: black;
     padding: 20px 0;
 }
 
@@ -27,23 +27,23 @@ nav li {
 
 nav a {
     text-transform: uppercase;
-    color: #ffdc82;
+    color: white;
     font-weight: bold;
     font-size: 22px;
     text-decoration: none;
 }
 
 nav a:hover {
-    color: #e5be5f;
+    color: #FFFFFF;
     text-decoration: underline;
 }
 
 .logo {
-    width: 40%;
+    width: 30%;
 }
 
 .conteudo-central {
-    background: linear-gradient(#ffdc82, #B39549);
+    background: linear-gradient(#0669B2, #034473);
     width: 940px;
     margin: 0 auto;
 }
@@ -54,6 +54,7 @@ nav a:hover {
     font-weight: bold;
     font-size: 2em;
     clear: left;
+    color: #FFFFFF;
 }
 
 .principal {
@@ -75,7 +76,7 @@ nav a:hover {
 }
 
 p {
-    color: black;
+    color: #ffffff;
 }
 
 .mapa {
@@ -105,6 +106,7 @@ p {
     width: 40%;
     display: inline-block;
     vertical-align: top;
+    color: #FFFFFF
 }
 
 .imagem-beneficios {
@@ -126,7 +128,7 @@ p {
 
 footer {
     text-align: center;
-    background-color: #204099;
+    background-color: black;
     padding: 60px 0;
     width: 100%;
     height: 1%;
